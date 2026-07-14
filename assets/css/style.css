@@ -1,0 +1,40 @@
+:root {
+    --bg: #515151;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: var(--bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.card {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
