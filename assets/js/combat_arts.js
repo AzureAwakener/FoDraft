@@ -1,4 +1,4 @@
-[
+window.combatArtsData = [
 	"Unspecified",
 	"Apocalyptic Flame",
 	"Armored Strike",
@@ -80,4 +80,4 @@
 	"Wind God",
 	"Windsweep",
 	"Wrath Strike"
-]
+];

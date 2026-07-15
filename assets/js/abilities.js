@@ -1,4 +1,4 @@
-[
+window.abilitiesData = [
 	"Unspecified",
 	"Professor's Guidance",
 	"Professor's Guidance+",
@@ -139,4 +139,4 @@
 	"Duelist's Blow",
 	"Transmute",
 	"Uncanny Blow"
-]
+];
